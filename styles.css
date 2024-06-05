@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    color: orange;
+}
+body{
+    background-color: rgb(255, 255, 186);
+    padding: 20px;
+}
+.head{
+    background-color: red;
+    padding-bottom: 13px;
+}
+.heading{
+    color: rgb(255, 255, 186);
+    background-color: rgb(159, 0, 0);
+    font-style: italic;
+    letter-spacing: .7rem;
+    text-align: center;
+}
+.title {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    background: green;
+    color: #fff;
+    padding-left: 15px;
+    font-weight: 700;
+}
+.html{
+    margin-top: 15px;
+    margin-left: 50px;
+    color: red;
+}
+.html ol{
+    margin-left: 30px;
+}
+.zeus{
+    font-size: medium; 
+    margin-top: 8px; 
+    color:purple;
+    text-decoration: none;
+}
+img {
+    margin-top: 15px;
+    border: dotted;
+    padding: 10px 15px;
+    background: #fff;
+}
+.text{
+    margin: 15px 0;
+    color: gray;
+    font-weight: bold;
+    font-size: medium;
+}
+.warn-text{
+    margin: 15px 0;
+}
+.space-y{
+    margin: 10px 0;
+}
+textarea{
+    max-width: 160px;
+    max-height: 100px;
+}
